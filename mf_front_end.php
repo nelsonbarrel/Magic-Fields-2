@@ -143,7 +143,7 @@ function get_image ($field_name, $group_index=1, $field_index=1,$tag_img=1,$post
   );
 }
 
-function get_field( $field_name , $group_index = 1 , $post_id = NULL ){
+function mf_get_field( $field_name , $group_index = 1 , $post_id = NULL ){
   global $post,$wpdb;
 	
   if(!$post_id){ $post_id = $post->ID; }
